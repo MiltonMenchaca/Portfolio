@@ -1,6 +1,6 @@
 # Portfolio
 
-Este proyecto es un portafolio personal creado con [Create React App](https://github.com/facebook/create-react-app). Aquí podrás encontrar información sobre mis proyectos, experiencias y habilidades. A continuación, encontrarás instrucciones para la instalación, ejecución y despliegue de la aplicación.
+This project is a personal portfolio built with [Create React App](https://github.com/facebook/create-react-app). It showcases my projects, experiences, and skills. Below, you'll find instructions on how to install, run, and deploy the application.
 
 ---
 
@@ -16,7 +16,7 @@ In the project directory, you can run:
 Runs the app in the development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
 
-The page will reload when you make changes.  
+The page will reload if you make edits.  
 You may also see any lint errors in the console.
 
 #### `npm test`
@@ -32,10 +32,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-
-## Autor
+## Author
 
 - **Milton Menchaca**  
   [GitHub](https://github.com/MiltonMenchaca)
-
-¡Gracias por visitar mi portafolio! Siéntete libre de crear un [issue](https://github.com/MiltonMenchaca/Portfolio/issues) en este repositorio si encuentras algún problema o tienes sugerencias para mejorar.
