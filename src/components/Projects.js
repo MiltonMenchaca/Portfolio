@@ -4,8 +4,8 @@ import { Box, Typography, Divider, IconButton, Grid, Modal } from '@mui/material
 import CloseIcon from '@mui/icons-material/Close';
 import MinimizeIcon from '@mui/icons-material/Minimize';
 import FolderIcon from '@mui/icons-material/Folder';
-import AboutMe from './AboutMe'; 
-import BadgesAndCertificates from './BadgesAndCertificates'; 
+import AboutMe from './AboutMe';
+import BadgesAndCertificates from './BadgesAndCertificates';
 import Contact from './Contact';
 
 const Project = ({ onClose }) => {
@@ -106,31 +106,45 @@ const Project = ({ onClose }) => {
 
           {/* Projects Gallery */}
           <Grid container spacing={2}>
-            <Grid item xs={4} sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <Grid
+              item
+              xs={4}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+            >
               <img
                 src={`${process.env.PUBLIC_URL}/blog.png`}
                 alt="Blog"
-                style={{ width: '80px', height: '80px' }}
+                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
               />
               <Typography variant="caption" align="center" display="block">
                 Project 1
               </Typography>
             </Grid>
-            <Grid item xs={4} sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+
+            <Grid
+              item
+              xs={4}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+            >
               <img
                 src={`${process.env.PUBLIC_URL}/INCTM.png`}
                 alt="Incluyeme en tu mundo site"
-                style={{ width: '80px', height: '80px' }}
+                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
               />
               <Typography variant="caption" align="center" display="block">
                 Project 2
               </Typography>
             </Grid>
-            <Grid item xs={4} sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+
+            <Grid
+              item
+              xs={4}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+            >
               <img
                 src={`${process.env.PUBLIC_URL}/ssetco.png`}
                 alt="SSETCO site full stack"
-                style={{ width: '80px', height: '80px' }}
+                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
               />
               <Typography variant="caption" align="center" display="block">
                 Project 3
