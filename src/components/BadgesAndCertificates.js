@@ -12,9 +12,10 @@ const BadgesAndCertificates = ({ onClose }) => {
     { img: `${process.env.PUBLIC_URL}/ethcissco.png`, title: 'Ethical Hacker Course Cissco' },
     { img: `${process.env.PUBLIC_URL}/jran.png`, title: 'Junior cybersecurity analyst Cissco' },
     { img: `${process.env.PUBLIC_URL}/certificado-core.png`, title: 'Pentesting bootcamp' },
-    { img: `${process.env.PUBLIC_URL}/red-team.png`, title: 'Red team training' },
+    { img: `${process.env.PUBLIC_URL}/operaciones de infiltracion.jpeg`, title: 'Operation Infiltrations' },
     { img: `${process.env.PUBLIC_URL}/ETH.png`, title: 'Introduction to Hacking' },
     { img: `${process.env.PUBLIC_URL}/pyof.png`, title: 'Offensive Python' },
+    { img: `${process.env.PUBLIC_URL}/Malware development.png`, title: 'Introduction to Malware Development' },
   ];
 
   return (
