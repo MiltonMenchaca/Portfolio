@@ -105,11 +105,13 @@ const Project = ({ onClose }) => {
           <Divider sx={{ bgcolor: '#444', marginBottom: '16px' }} />
 
           {/* Projects Gallery */}
-          <Grid container spacing={2}>
+          <Grid container spacing={4}>
+            {/* Row 1 */}
+            
             {/* Project 1: Blog */}
             <Grid
               item
-              xs={4}
+              xs={12} sm={6} md={4}
               sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
               onClick={() => window.open('https://miltonmenchaca.github.io/MiltonM.github.io/', '_blank')}
             >
@@ -121,44 +123,12 @@ const Project = ({ onClose }) => {
               <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
                 Milton Blog
               </Typography>
-              {/* Project 5: Medium Blog (New) */}
-            <Grid
-              item
-              xs={4}
-              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
-              onClick={() => window.open('https://medium.com/@lord_murak/about', '_blank')}
-            >
-              <img
-                src={`${process.env.PUBLIC_URL}/mediummurak.png`}
-                alt="Medium Blog Lord Murak"
-                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
-              />
-              <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
-                Medium Blog
-              </Typography>
-              {/* Project 6: Osint Platform (New) */}
-            <Grid
-              item
-              xs={4}
-              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
-              onClick={() => window.open('https://github.com/MiltonMenchaca/Osint_platform', '_blank')}
-            >
-              <img
-                src={`${process.env.PUBLIC_URL}/osintplatform.png`}
-                alt="OSINT Platform"
-                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
-              />
-              <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
-                OSINT Platform
-              </Typography>
             </Grid>
-          </Grid>
-          </Grid>
 
             {/* Project 2: Inclúyeme en tu Mundo */}
             <Grid
               item
-              xs={4}
+              xs={12} sm={6} md={4}
               sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
               onClick={() => window.open('https://www.incluyemeentumundo.org/', '_blank')}
             >
@@ -172,10 +142,10 @@ const Project = ({ onClose }) => {
               </Typography>
             </Grid>
 
-            {/* Project 3: SSETCO (Existing) */}
+            {/* Project 3: SSETCO */}
             <Grid
               item
-              xs={4}
+              xs={12} sm={6} md={4}
               sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
             >
               <img
@@ -188,10 +158,12 @@ const Project = ({ onClose }) => {
               </Typography>
             </Grid>
 
-            {/* Project 4: VulnHunter (New) */}
+            {/* Row 2 */}
+
+            {/* Project 4: VulnHunter */}
             <Grid
               item
-              xs={4}
+              xs={12} sm={6} md={4}
               sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
               onClick={() => window.open('https://github.com/MiltonMenchaca/VulnHunter', '_blank')}
             >
@@ -204,6 +176,41 @@ const Project = ({ onClose }) => {
                 VulnHunter
               </Typography>
             </Grid>
+
+             {/* Project 5: Medium Blog */}
+            <Grid
+              item
+              xs={12} sm={6} md={4}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
+              onClick={() => window.open('https://medium.com/@lord_murak/about', '_blank')}
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/mediummurak.png`}
+                alt="Medium Blog Lord Murak"
+                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+              />
+              <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
+                Medium Blog
+              </Typography>
+            </Grid>
+
+            {/* Project 6: Osint Platform */}
+            <Grid
+              item
+              xs={12} sm={6} md={4}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
+              onClick={() => window.open('https://github.com/MiltonMenchaca/Osint_platform', '_blank')}
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/osintplatform.png`}
+                alt="OSINT Platform"
+                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+              />
+              <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
+                OSINT Platform
+              </Typography>
+            </Grid>
+
           </Grid>
         </Box>
       </Box>
