@@ -106,36 +106,73 @@ const Project = ({ onClose }) => {
 
           {/* Projects Gallery */}
           <Grid container spacing={2}>
+            {/* Project 1: Blog */}
             <Grid
               item
               xs={4}
-              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
+              onClick={() => window.open('https://miltonmenchaca.github.io/MiltonM.github.io/', '_blank')}
             >
               <img
                 src={`${process.env.PUBLIC_URL}/blog.png`}
-                alt="Blog"
+                alt="Milton Blog"
                 style={{ width: '150px', height: '150px', objectFit: 'cover' }}
               />
-              <Typography variant="caption" align="center" display="block">
-                Project 1
+              <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
+                Milton Blog
               </Typography>
-            </Grid>
-
+              {/* Project 5: Medium Blog (New) */}
             <Grid
               item
               xs={4}
-              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
+              onClick={() => window.open('https://medium.com/@lord_murak/about', '_blank')}
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/mediummurak.png`}
+                alt="Medium Blog Lord Murak"
+                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+              />
+              <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
+                Medium Blog
+              </Typography>
+              {/* Project 6: Osint Platform (New) */}
+            <Grid
+              item
+              xs={4}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
+              onClick={() => window.open('https://github.com/MiltonMenchaca/Osint_platform', '_blank')}
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/osintplatform.png`}
+                alt="OSINT Platform"
+                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+              />
+              <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
+                OSINT Platform
+              </Typography>
+            </Grid>
+          </Grid>
+          </Grid>
+
+            {/* Project 2: Inclúyeme en tu Mundo */}
+            <Grid
+              item
+              xs={4}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
+              onClick={() => window.open('https://www.incluyemeentumundo.org/', '_blank')}
             >
               <img
                 src={`${process.env.PUBLIC_URL}/INCTM.png`}
-                alt="Incluyeme en tu mundo site"
+                alt="Inclúyeme en tu Mundo"
                 style={{ width: '150px', height: '150px', objectFit: 'cover' }}
               />
-              <Typography variant="caption" align="center" display="block">
-                Project 2
+              <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
+                Inclúyeme en tu Mundo
               </Typography>
             </Grid>
 
+            {/* Project 3: SSETCO (Existing) */}
             <Grid
               item
               xs={4}
@@ -146,8 +183,25 @@ const Project = ({ onClose }) => {
                 alt="SSETCO site full stack"
                 style={{ width: '150px', height: '150px', objectFit: 'cover' }}
               />
-              <Typography variant="caption" align="center" display="block">
-                Project 3
+              <Typography variant="caption" align="center" display="block" sx={{ mt: 1 }}>
+                SSETCO
+              </Typography>
+            </Grid>
+
+            {/* Project 4: VulnHunter (New) */}
+            <Grid
+              item
+              xs={4}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
+              onClick={() => window.open('https://github.com/MiltonMenchaca/VulnHunter', '_blank')}
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/logovulnhunter.png`}
+                alt="VulnHunter Tool"
+                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+              />
+              <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
+                VulnHunter
               </Typography>
             </Grid>
           </Grid>

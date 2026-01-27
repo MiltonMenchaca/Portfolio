@@ -107,52 +107,74 @@ const Experience = ({ onClose }) => {
                     }}
                 >
                     <Typography variant="h5" sx={{ color: '#bfbfbf', marginBottom: '16px' }}>
-                        Experience
+                        Professional Experience
                     </Typography>
                     <Divider sx={{ bgcolor: '#444', marginBottom: '16px' }} />
 
-                    {/* Freelance Web Developer */}
-                    <Typography variant="body1" sx={{ marginBottom: '8px' }}>
-                        <strong>Freelance Web Developer</strong>
-                    </Typography>
-                    <Typography variant="body2" sx={{ marginBottom: '16px' }}>
-                        Over 1 year of experience designing and developing custom web applications using React, Node.js, and modern frameworks. Delivered scalable solutions tailored to client-specific requirements.
-                    </Typography>
+                    {/* Grupo Same */}
+                    <Box sx={{ mb: 3 }}>
+                        <Typography variant="h6" sx={{ color: '#00ff00', fontWeight: 'bold' }}>
+                            Network and Application Security Specialist
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#bfbfbf', mb: 1 }}>
+                            Grupo Same | Present (Recently Promoted)
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#ffffff' }}>
+                            • Leading network security initiatives and application hardening strategies.<br/>
+                            • Conducting vulnerability assessments and implementing defense-in-depth architectures.<br/>
+                            • Securing internal infrastructure and optimizing incident response protocols.
+                        </Typography>
+                    </Box>
 
-                    {/* Infrastructure Developer */}
-                    <Typography variant="body1" sx={{ marginBottom: '8px' }}>
-                        <strong>Infrastructure Developer</strong>
-                    </Typography>
-                    <Typography variant="body2" sx={{ marginBottom: '16px' }}>
-                        Designed and deployed C2 infrastructure using Empire on AWS Cloud for security testing and red team operations. Developed custom malware in C and Python for penetration testing and ethical hacking purposes.
-                    </Typography>
+                    {/* Atura */}
+                    <Box sx={{ mb: 3 }}>
+                        <Typography variant="h6" sx={{ color: '#00ff00', fontWeight: 'bold' }}>
+                            Backend Developer
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#bfbfbf', mb: 1 }}>
+                            Atura | 6 months
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#ffffff' }}>
+                            • Developed robust backend architectures using PHP and Laravel.<br/>
+                            • Optimized API performance and database queries for high-traffic environments.<br/>
+                            • Integrated secure authentication flows and data protection measures.
+                        </Typography>
+                    </Box>
 
-                    {/* Invoice Specialist */}
-                    <Typography variant="body1" sx={{ marginBottom: '8px' }}>
-                        <strong>Invoice Specialist</strong> - SSETCO Consultoría Integral
-                    </Typography>
-                    <Typography variant="body2" sx={{ marginBottom: '16px' }}>
-                        - Created invoices for clients and managed client products using COTPAQUI Comercial.
-                        <br />- Monitored invoices using IntelliSAT and prepared quotes for clients.
-                        <br />- Coordinated order deliveries to clients’ locations.
-                    </Typography>
+                    {/* 0x12 Dark Development */}
+                    <Box sx={{ mb: 3 }}>
+                        <Typography variant="h6" sx={{ color: '#00ff00', fontWeight: 'bold' }}>
+                            Developer & Security Researcher
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#bfbfbf', mb: 1 }}>
+                            0x12 Dark Development | Jan 2025 - Present
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#ffffff' }}>
+                            • Researching advanced malware development techniques and evasion strategies.<br/>
+                            • Developing custom C2 infrastructure and offensive tooling for red teaming.<br/>
+                            • Analyzing modern defensive mechanisms to create more resilient security solutions.
+                        </Typography>
+                    </Box>
 
-                    {/* Report Assistant */}
-                    <Typography variant="body1" sx={{ marginBottom: '8px' }}>
-                        <strong>Report Assistant</strong> - Bureau Veritas Mexicana
-                    </Typography>
-                    <Typography variant="body2" sx={{ marginBottom: '16px' }}>
-                        - Analyzed and identified diagrams for wastewater plants at the Salina Cruz refinery.
-                        <br />- Managed and prepared reports on wastewater plant performance.
-                        <br />- Developed and maintained risk scenario matrices.
-                    </Typography>
+                    {/* Freelance */}
+                    <Box sx={{ mb: 3 }}>
+                        <Typography variant="h6" sx={{ color: '#bfbfbf', fontWeight: 'bold' }}>
+                            Freelance Full Stack Developer
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#bfbfbf', mb: 1 }}>
+                            Remote | Sep 2024 - Present
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#ffffff' }}>
+                            • Delivering end-to-end web solutions with a strong focus on React.<br/>
+                            • Building modern, responsive front-end interfaces and scalable back-ends.<br/>
+                            • Automating deployment pipelines and conducting security audits for client applications.
+                        </Typography>
+                    </Box>
 
-                    {/* Technical Skills */}
-                    <Typography variant="body1" sx={{ marginBottom: '8px' }}>
-                        <strong>Technical Skills</strong>
-                    </Typography>
-                    <Typography variant="body2">
-                        Proficient in JavaScript, Typescript, React, Node.js, Python, and tools like Wireshark, Metasploit, IntelliSAT, and AWS Cloud management.
+                    <Divider sx={{ bgcolor: '#444', my: 2 }} />
+
+                    <Typography variant="caption" sx={{ color: '#777' }}>
+                        * Previous roles in administrative and reporting sectors omitted for brevity.
                     </Typography>
                 </Box>
             </Box>
