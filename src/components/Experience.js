@@ -117,12 +117,31 @@ const Experience = ({ onClose }) => {
                             Network and Application Security Specialist
                         </Typography>
                         <Typography variant="body2" sx={{ color: '#bfbfbf', mb: 1 }}>
-                            Grupo Same | Present (Recently Promoted)
+                            Grupo SAME (Cúmulo) | Jan 2026 - Present
                         </Typography>
                         <Typography variant="body2" sx={{ color: '#ffffff' }}>
-                            • Leading network security initiatives and application hardening strategies.<br/>
-                            • Conducting vulnerability assessments and implementing defense-in-depth architectures.<br/>
-                            • Securing internal infrastructure and optimizing incident response protocols.
+                            • Continuous web application pentesting and vulnerability remediation following OWASP Top 10 standards.<br/>
+                            • Linux server hardening and defense-in-depth web architecture implementation.<br/>
+                            • Proactive monitoring, threat detection, and incident response.<br/>
+                            • Configuration and administration of Linux servers optimized for secure deployment.
+                        </Typography>
+                    </Box>
+
+                    {/* Threatix */}
+                    <Box sx={{ mb: 3 }}>
+                        <Typography variant="h6" sx={{ color: '#00ff00', fontWeight: 'bold' }}>
+                            Founder & CEO
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#bfbfbf', mb: 1 }}>
+                            Threatix | Jan 2026 - Present
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#3b82f6', cursor: 'pointer', mb: 1 }} component="a" href="https://threatix.com.mx/" target="_blank">
+                            https://threatix.com.mx/
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#ffffff' }}>
+                            • Founded cybersecurity education platform in Spanish for Latin America and Spain.<br/>
+                            • Created technical content: vulnerability assessment modules, MITRE ATT&CK techniques, and security research.<br/>
+                            • Led multidisciplinary team (OSINT, development, content) and developed hands-on labs.
                         </Typography>
                     </Box>
 
@@ -132,12 +151,12 @@ const Experience = ({ onClose }) => {
                             Backend Developer
                         </Typography>
                         <Typography variant="body2" sx={{ color: '#bfbfbf', mb: 1 }}>
-                            Atura | 6 months
+                            Atura | Jun 2025 - Dec 2025 (7 months)
                         </Typography>
                         <Typography variant="body2" sx={{ color: '#ffffff' }}>
-                            • Developed robust backend architectures using PHP and Laravel.<br/>
-                            • Optimized API performance and database queries for high-traffic environments.<br/>
-                            • Integrated secure authentication flows and data protection measures.
+                            • Developed REST APIs with PHP/Laravel and Node.js, Swagger/Postman documentation.<br/>
+                            • Optimized MySQL database integration, schema design, and query performance.<br/>
+                            • Implemented JWT/OAuth2 authentication and Linux server deployment.
                         </Typography>
                     </Box>
 
@@ -147,34 +166,37 @@ const Experience = ({ onClose }) => {
                             Developer & Security Researcher
                         </Typography>
                         <Typography variant="body2" sx={{ color: '#bfbfbf', mb: 1 }}>
-                            0x12 Dark Development | Jan 2025 - Present
+                            0x12 Dark Development | Jan 2025 - Dec 2025 (1 year)
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: '#3b82f6', cursor: 'pointer', mb: 1 }} component="a" href="https://0x12darkdev.net/" target="_blank">
+                            https://0x12darkdev.net/
                         </Typography>
                         <Typography variant="body2" sx={{ color: '#ffffff' }}>
-                            • Researching advanced malware development techniques and evasion strategies.<br/>
-                            • Developing custom C2 infrastructure and offensive tooling for red teaming.<br/>
-                            • Analyzing modern defensive mechanisms to create more resilient security solutions.
+                            • Developed offensive tooling and advanced pentesting techniques for research purposes.<br/>
+                            • Built custom C2 agents integrated with the Mythic framework.<br/>
+                            • Researched evasion techniques for Windows and Android operating systems.
                         </Typography>
                     </Box>
 
-                    {/* Freelance */}
+                    {/* Bureau Veritas */}
                     <Box sx={{ mb: 3 }}>
-                        <Typography variant="h6" sx={{ color: '#bfbfbf', fontWeight: 'bold' }}>
-                            Freelance Full Stack Developer
+                        <Typography variant="h6" sx={{ color: '#00ff00', fontWeight: 'bold' }}>
+                            Risk Analyst & Technical Reports
                         </Typography>
                         <Typography variant="body2" sx={{ color: '#bfbfbf', mb: 1 }}>
-                            Remote | Sep 2024 - Present
+                            Bureau Veritas Mexicana | Jan 2024 - Jun 2024 (6 months)
                         </Typography>
                         <Typography variant="body2" sx={{ color: '#ffffff' }}>
-                            • Delivering end-to-end web solutions with a strong focus on React.<br/>
-                            • Building modern, responsive front-end interfaces and scalable back-ends.<br/>
-                            • Automating deployment pipelines and conducting security audits for client applications.
+                            • Technical analysis and risk management in industrial environment (Salina Cruz refinery).<br/>
+                            • Risk scenario matrix management and impact assessment.<br/>
+                            • Technical documentation and reports for decision-making.
                         </Typography>
                     </Box>
 
                     <Divider sx={{ bgcolor: '#444', my: 2 }} />
 
                     <Typography variant="caption" sx={{ color: '#777' }}>
-                        * Previous roles in administrative and reporting sectors omitted for brevity.
+                        * Certifications: HTB Academy (Penetration Tester, SOC Analyst, Bug Bounty Hunter), Cisco (Ethical Hacker, Junior Cybersecurity Analyst), AWS Academy (Cloud Foundations, Data Engineering)
                     </Typography>
                 </Box>
             </Box>

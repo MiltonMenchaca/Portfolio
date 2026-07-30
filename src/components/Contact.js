@@ -162,16 +162,16 @@ const Contact = ({ onClose }) => {
                             gap: '16px',
                         }}
                     >
-                        <IconButton href="https://github.com/" target="_blank" sx={{ color: '#ffffff' }}>
+                        <IconButton href="https://github.com/MiltonMenchaca" target="_blank" sx={{ color: '#ffffff' }}>
                             <GitHubIcon fontSize="large" />
                         </IconButton>
-                        <IconButton href="https://linkedin.com/" target="_blank" sx={{ color: '#0077b5' }}>
+                        <IconButton href="https://www.linkedin.com/in/milton-emilio-menchaca-manero-349519398/" target="_blank" sx={{ color: '#0077b5' }}>
                             <LinkedInIcon fontSize="large" />
                         </IconButton>
-                        <IconButton href="https://twitter.com/" target="_blank" sx={{ color: '#1DA1F2' }}>
+                        <IconButton href="https://medium.com/@lord_murak" target="_blank" sx={{ color: '#1DA1F2' }}>
                             <TwitterIcon fontSize="large" />
                         </IconButton>
-                        <IconButton href="mailto:example@example.com" sx={{ color: '#c71610' }}>
+                        <IconButton href="https://threatix.com.mx/" target="_blank" sx={{ color: '#c71610' }}>
                             <EmailIcon fontSize="large" />
                         </IconButton>
                         <IconButton href="https://discord.com/" target="_blank" sx={{ color: '#5865F2' }}>

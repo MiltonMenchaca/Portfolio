@@ -126,50 +126,50 @@ const AboutMe = ({ onClose }) => {
           
           <Box sx={{ mt: 1 }}>
             <Typography variant="subtitle1" sx={{ color: '#00ff00', fontWeight: 'bold' }}>Network and Application Security Specialist</Typography>
-            <Typography variant="body2" sx={{ color: '#bfbfbf' }}>Grupo SAME (Cúmulo) | Ene 2026 - Present</Typography>
+            <Typography variant="body2" sx={{ color: '#bfbfbf' }}>Grupo SAME (Cúmulo) | Jan 2026 - Present</Typography>
             <Typography variant="body2" sx={{ color: '#ffffff', ml: 2, mt: 0.5 }}>
-              • Pentesting continuo de aplicaciones web y mitigación de hallazgos (OWASP Top 10)<br/>
-              • Hardening de servidores Linux y arquitecturas web (defense-in-depth)<br/>
-              • Monitoreo proactivo, detección de amenazas y respuesta a incidentes
+              • Continuous web application pentesting and vulnerability remediation (OWASP Top 10)<br/>
+              • Linux server hardening and web architecture defense-in-depth<br/>
+              • Proactive monitoring, threat detection, and incident response
             </Typography>
           </Box>
 
           <Box sx={{ mt: 1 }}>
             <Typography variant="subtitle1" sx={{ color: '#00ff00', fontWeight: 'bold' }}>Founder & CEO</Typography>
-            <Typography variant="body2" sx={{ color: '#bfbfbf' }}>Threatix | Ene 2026 - Present</Typography>
+            <Typography variant="body2" sx={{ color: '#bfbfbf' }}>Threatix | Jan 2026 - Present</Typography>
             <Typography variant="caption" sx={{ color: '#3b82f6', cursor: 'pointer' }} component="a" href="https://threatix.com.mx/" target="_blank">https://threatix.com.mx/</Typography>
             <Typography variant="body2" sx={{ color: '#ffffff', ml: 2, mt: 0.5 }}>
-              • Plataforma educativa de ciberseguridad en español para Latinoamérica y España<br/>
-              • Contenido técnico: módulos de evaluación de vulnerabilidades, técnicas MITRE ATT&CK<br/>
-              • Liderazgo de equipo multidisciplinario y desarrollo de laboratorios prácticos
+              • Cybersecurity education platform in Spanish for Latin America and Spain<br/>
+              • Technical content: vulnerability assessment modules, MITRE ATT&CK techniques<br/>
+              • Multidisciplinary team leadership and hands-on lab development
             </Typography>
           </Box>
 
           <Box sx={{ mt: 1 }}>
             <Typography variant="subtitle1" sx={{ color: '#00ff00', fontWeight: 'bold' }}>Backend Developer</Typography>
-            <Typography variant="body2" sx={{ color: '#bfbfbf' }}>Atura | Jun 2025 - Dic 2025 (7 meses)</Typography>
+            <Typography variant="body2" sx={{ color: '#bfbfbf' }}>Atura | Jun 2025 - Dec 2025 (7 months)</Typography>
             <Typography variant="body2" sx={{ color: '#ffffff', ml: 2, mt: 0.5 }}>
-              • APIs REST con PHP/Laravel y Node.js, documentación con Swagger/Postman<br/>
-              • MySQL, autenticación JWT/OAuth2, despliegue en servidores Linux
+              • REST APIs with PHP/Laravel and Node.js, Swagger/Postman documentation<br/>
+              • MySQL, JWT/OAuth2 authentication, Linux server deployment
             </Typography>
           </Box>
 
           <Box sx={{ mt: 1 }}>
             <Typography variant="subtitle1" sx={{ color: '#00ff00', fontWeight: 'bold' }}>Developer & Security Researcher</Typography>
-            <Typography variant="body2" sx={{ color: '#bfbfbf' }}>0x12 Dark Development | Ene 2025 - Dic 2025 (1 año)</Typography>
+            <Typography variant="body2" sx={{ color: '#bfbfbf' }}>0x12 Dark Development | Jan 2025 - Dec 2025 (1 year)</Typography>
             <Typography variant="caption" sx={{ color: '#3b82f6', cursor: 'pointer' }} component="a" href="https://0x12darkdev.net/" target="_blank">https://0x12darkdev.net/</Typography>
             <Typography variant="body2" sx={{ color: '#ffffff', ml: 2, mt: 0.5 }}>
-              • Tooling ofensivo, agentes C2 con Mythic, investigación de evasión Windows/Android<br/>
-              • Contenido educativo de ciberseguridad y proof-of-concept para investigación
+              • Offensive tooling, custom C2 agents with Mythic, Windows/Android evasion research<br/>
+              • Cybersecurity educational content and proof-of-concept development
             </Typography>
           </Box>
 
           <Box sx={{ mt: 1 }}>
             <Typography variant="subtitle1" sx={{ color: '#00ff00', fontWeight: 'bold' }}>Risk Analyst & Technical Reports</Typography>
-            <Typography variant="body2" sx={{ color: '#bfbfbf' }}>Bureau Veritas Mexicana | Ene 2024 - Jun 2024 (6 meses)</Typography>
+            <Typography variant="body2" sx={{ color: '#bfbfbf' }}>Bureau Veritas Mexicana | Jan 2024 - Jun 2024 (6 months)</Typography>
             <Typography variant="body2" sx={{ color: '#ffffff', ml: 2, mt: 0.5 }}>
-              • Análisis técnico y gestión de riesgos en entorno industrial (refinería Salina Cruz)<br/>
-              • Documentación técnica y reportes para toma de decisiones
+              • Technical analysis and risk management in industrial environment (Salina Cruz refinery)<br/>
+              • Technical documentation and reports for decision-making
             </Typography>
           </Box>
 
