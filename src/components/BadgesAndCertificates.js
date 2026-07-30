@@ -8,10 +8,15 @@ import FolderIcon from '@mui/icons-material/Folder';
 const BadgesAndCertificates = ({ onClose }) => {
   // Array of certificate info
   const certificates = [
-    { img: `${process.env.PUBLIC_URL}/certificado.jpg`, title: 'Web development full stack bootcamp' },
-    { img: `${process.env.PUBLIC_URL}/ethcissco.png`, title: 'Ethical Hacker Course Cissco' },
-    { img: `${process.env.PUBLIC_URL}/jran.png`, title: 'Junior cybersecurity analyst Cissco' },
-    { img: `${process.env.PUBLIC_URL}/certificado-core.png`, title: 'Pentesting bootcamp' },
+    { img: `${process.env.PUBLIC_URL}/pentester-path.png`, title: 'HTB Academy - Penetration Tester Path' },
+    { img: `${process.env.PUBLIC_URL}/soc-analyst.png`, title: 'HTB Academy - SOC Analyst Path' },
+    { img: `${process.env.PUBLIC_URL}/htb-bug-bounty.png`, title: 'HTB Academy - Bug Bounty Hunter Path' },
+    { img: `${process.env.PUBLIC_URL}/aws-cloud-foundations.png`, title: 'AWS Academy Graduate - Cloud Foundations' },
+    { img: `${process.env.PUBLIC_URL}/aws-data-engineering.png`, title: 'AWS Academy Graduate - Data Engineering' },
+    { img: `${process.env.PUBLIC_URL}/ethcissco.png`, title: 'Cisco - Ethical Hacker' },
+    { img: `${process.env.PUBLIC_URL}/jran.png`, title: 'Cisco - Junior Cybersecurity Analyst' },
+    { img: `${process.env.PUBLIC_URL}/certificado-core.png`, title: 'Pentesting Bootcamp' },
+    { img: `${process.env.PUBLIC_URL}/certificado.jpg`, title: 'Web Development Full Stack Bootcamp' },
     { img: `${process.env.PUBLIC_URL}/operaciones de infiltracion.jpeg`, title: 'Operation Infiltrations' },
     { img: `${process.env.PUBLIC_URL}/ETH.png`, title: 'Introduction to Hacking' },
     { img: `${process.env.PUBLIC_URL}/pyof.png`, title: 'Offensive Python' },

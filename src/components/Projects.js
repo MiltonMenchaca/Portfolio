@@ -211,6 +211,40 @@ const Project = ({ onClose }) => {
               </Typography>
             </Grid>
 
+            {/* Project 7: Threatix */}
+            <Grid
+              item
+              xs={12} sm={6} md={4}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
+              onClick={() => window.open('https://threatix.com.mx/', '_blank')}
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/threatix.png`}
+                alt="Threatix Platform"
+                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+              />
+              <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
+                Threatix
+              </Typography>
+            </Grid>
+
+            {/* Project 8: MyPortfolio */}
+            <Grid
+              item
+              xs={12} sm={6} md={4}
+              sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}
+              onClick={() => window.open('https://miltonmenchaca.github.io/myportfolio/', '_blank')}
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/Milton-menchaca.webp`}
+                alt="My Portfolio"
+                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+              />
+              <Typography variant="caption" align="center" display="block" sx={{ mt: 1, color: '#3b82f6', textDecoration: 'underline' }}>
+                My Portfolio
+              </Typography>
+            </Grid>
+
           </Grid>
         </Box>
       </Box>
